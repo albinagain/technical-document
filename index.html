@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Technical Document</title>
+</head>
+<body>
+  <main id="main-doc">
+  <section class="main-section" id="Introduction">
+    <header><h1>Introduction</h1></header>
+    <p>
+      I cannot think of any topic, so I am going to copy that thing . lol
+    </p>
+    <code>
+      function greetMe(yourName) { alert("Hello " + yourName); }greetMe("World");
+    </code>
+    <ul>
+      <li>The above thing is the hello world text.</li>
+      <li>lol</li>
+      <li>Also, this is Javascript tutorial I guess.</li>
+    </ul>
+  </section>
+  <section class="main-section" id="Opening_Case">
+    <header><h1>Opening Case</h1></header>
+    <p>
+      Kim Nguyen was leading a meeting to create the work breakdown structure (WBS) for her company’s IT upgrade project. This project was necessary because of several high-priority, Internet-based applications the company was developing. The IT upgrade project involved creating and implementing a plan to make all employees’ IT assets meet new corporate standards within nine months. These standards specified the minimum requirements for each desktop or laptop computer, including the type of processor, amount of memory, hard disk size, type of network connection, security features, and software. Kim knew that to perform the upgrades, the project team would first have to create a detailed inventory of all the current hardware, networks, and software in the entire company of 2,000 employees.</p>
+
+    <p>Kim had worked with other stakeholders to develop a project charter and initial scope statement. The project charter included rough cost and schedule estimates for the project and signatures of key stakeholders; the initial scope statement provided a start in defining the hardware, software, and network requirements as well as other information related to the project scope. Kim called a meeting with her project team and other stakeholders to further define the scope of the project. She wanted to get everyone’s ideas on what the project involved, who would do what, and how they could avoid scope creep. The company’s new CEO, Walter Schmidt, was known for keeping a close eye on major projects. The company had started using a new project management information system that let everyone know the status of projects at a detailed and high level. Kim knew that a good WBS was the foundation for scope, time, and cost performance, but she had never led a team in creating one or allocating costs based on a WBS. <br><br> Where should she begin?
+    </p>
+  </section>
+  
+  <section class="main-section" id="JavaScript">
+    <header><h1>JavaScript</h1></header>
+    <p>
+      JavaScript is similar to Java but not really. It is also free-form.</p>
+    <p>In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a runtime system based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a prototype-based object model instead of the more common class-based object model. The prototype-based model provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript also supports functions without any special declarative requirements. Functions can be properties of objects, executing as loosely typed methods.</p>
+ 
+    <section class="main-section" id="Variables">
+    <header><h1>Variables</h1></header>
+    <p>Here are how to declare variables.</p>
+    <code>var x = 43.</code><br>
+    <code>x = 42.</code><br>
+    <code>let x = 44.</code>
+  </section>
+    
+    <section class="main-section" id="Data_Types">
+    <header><h1>Data Types</h1></header>
+    <p>There are a lot of data types.</p>
+      <ul>
+        <li>Boolean. true and false.</li>
+        <li>null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not the same as Null, NULL, or any other variant.</li>
+        <li>undefined. A top-level property whose value is undefined.</li>
+        <li>Number. 42 or 3.14159.</li>
+        <li>String.</li>
+        <li>Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable.</li>
+      </ul>
+  </section>
+    
+    <section class="main-section" id="Constants">
+      <header><h1>Constants</h1></header>
+      <p>You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.</p>
+      <code>const PI = 3.14;</code>
+      <p>A constant cannot change value through assignment or be re-declared while the script is running. It has to be initialized to a value. <br>
+The scope rules for constants are the same as those for let block scope variables. If the const keyword is omitted, the identifier is assumed to represent a variable. <br>
+You cannot declare a constant with the same name as a function or variable in the same scope. For example:</p>
+      <code>// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS WILL
+CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements
+}</code>
+      <p>However, object attributes are not protected, so the following statement is executed without problems.</p>
+      <code>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";</code>
+    </section>
+</main>
+
+<nav id="navbar">
+  <header><b>Incomplete JS Documentation</b></header>
+  <ul>
+    <li>
+      <a class="nav-link" href="#Introduction">Introduction</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#Opening_Case">Opening Case</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#JavaScript">JavaScript</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#Variables">Variables</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#Data_Types">Data Types</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#Constants">Constants</a>
+    </li>
+  </ul>
+</nav>
+</body>
+</html>
